@@ -431,7 +431,7 @@ function App() {
 
         <main className="main-content">
           {!accepted ? (
-            /* Active Invitation Card */
+            /* Active Invitation Card (Restored Elegant Glassmorphic Card Layout) */
             <section className="card invitation-card" id="invitationCard">
               <div className="card-accent-bar"></div>
               <div className="cup-icon-container">
@@ -542,7 +542,7 @@ function App() {
                     <span className="detail-icon">📍</span>
                     <div className="detail-info">
                       <strong>Local:</strong>
-                      <span>Na nossa Arena Oficial (sua casa ou a minha!)</span>
+                      <span>Na nossa Arena Oficial</span>
                     </div>
                   </div>
                   <div className="detail-item">
@@ -583,7 +583,7 @@ function App() {
             document.body
           )}
 
-          {/* SCHEDULE (JOGOS) SECTION */}
+          {/* SCHEDULE (JOGOS) SECTION (Tighter width, no scroll) */}
           <section className="matches-section">
             <header className="matches-header">
               <h2 className="matches-title">Tabela de Jogos - Copa 2026</h2>
@@ -654,6 +654,12 @@ function App() {
 
         <footer className="app-footer">
           <p>Criado com amor e paixão verde-amarela &copy; 2026</p>
+          <p style={{ marginTop: '0.3rem' }}>
+            Desenvolvido por{' '}
+            <a href="https://instagram.com/andreantonio96" target="_blank" rel="noopener noreferrer">
+              André Antonio
+            </a>
+          </p>
         </footer>
       </div>
     </>
